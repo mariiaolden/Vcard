@@ -14,7 +14,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.pro {
+  grid-area: 2 / 3 / 3 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 .photo {
   grid-area: 2 / 4;
   width: 100%;
